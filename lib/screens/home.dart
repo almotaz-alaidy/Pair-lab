@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
                         builder: (context) => Details(),
                       ));
                   FirebaseCrud.updateInfo(
-                      id: "id", docId: "iPBucJg0PgZOucs4BMhI", type: myValue);
+                      docId: "iPBucJg0PgZOucs4BMhI", type: myValue);
                 });
               })),
           RadioListTile(
@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
                         builder: (context) => Details(),
                       ));
                   FirebaseCrud.updateInfo(
-                      id: "id", docId: "iPBucJg0PgZOucs4BMhI", type: myValue);
+                      docId: "iPBucJg0PgZOucs4BMhI", type: myValue);
                 });
               })),
         ]),
